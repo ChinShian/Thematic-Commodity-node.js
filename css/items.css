@@ -45,7 +45,14 @@
             height: 45px;
         }
         .chin-comparegoods span{
-            font-size: 18px;
+            font-size: 16px;
+        }
+        .chin-sort{
+            background:#A0A0A0;
+            border: none;
+            color: white;
+            width: 154px;
+            height: 45px;
         }
         .chin-section{
             margin: 0 auto;
@@ -77,8 +84,8 @@
             padding: 0;
         }
         .chin-star{
-            width: 11.77px;
-            height:11.19px;
+            width: 15px;
+            height:15px;
             margin: 0 7.2px 0 0 ;
         }
         .chin-bag{
@@ -98,7 +105,7 @@
         .chin-heart-bag{
             display: flex;
             flex-direction: column;
-            margin-left:134.1px;
+            margin-left:115px;
         }
         .chin-commodity-item p{
             margin: 2px 0 12px 22px ;
