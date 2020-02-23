@@ -9,11 +9,42 @@
         a {
             text-decoration: none;
         }
-        h6{
-            margin:0 0 0 22px;
-            font-size: 15px;
+        header{
+            height: 310px;
+            background: #EFEFEF;
+            overflow: hidden;
+        }
+        .chin-bigtitle{
+            height: 107px;
+            background: #050505;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .chin-search{
+            margin: 40px 0 0 20px;
+        }
+        .chin-product{
+            width: 1300px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .chin-productoptions{
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding-left: 100px;
+        }
+        .chin-productoptions li{
+            font-size: 18px;
             font-weight:bold;
-            color: #A0A0A0;
+            margin: 40px 0 0 40px;
+            letter-spacing:4px;
+        }
+        .chin-bag-heart-user img{
+            margin: 40px 0 0 20px;
         }
         .chin-main{
             display: flex;
@@ -21,28 +52,52 @@
             flex-direction: column;
             overflow: hidden;
         }
+         .chin-commoditylist{
+            margin-right:17px ;
+            width: 312px;
+            height: 897px;
+            background: #EFEFEF;
+        }
+        .chin-price{
+            padding: 20px;
+            font-size: 18px;
+            font-weight:bold;
+            height: 65px;
+            border-bottom: 1px solid #A0A0A0;
+            display: flex;
+            justify-content:space-between;
+        }
+        .chin-commodity-title{
+            display: flex;
+            flex-direction: column;
+        }
         .chin-title{
-            margin: 0 auto;
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
         }
         .chin-title-text span{
+            letter-spacing:2px;
+            margin-left: 20px;
+            line-height: 50px;
             color: #050505;
-            font-size: 51px;
+            font-size: 22px;
             font-weight:bold;
             font-family:Helvetica Neue;
         }
-        .chin-title-text p{
-            color: #050505;
-            font-size: 30px;
-            font-weight:bold;
-            font-family:Helvetica Neue;
+        .chin-title-text span:nth-child(2){
+            margin-left: 44px;
+            font-size:18px;
         }
         .chin-comparegoods{
             background:#0DD2C5;
             border: none;
             color: white;
-            width: 154px;
+            width: 155px;
             height: 45px;
+            margin-right:20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
         }
         .chin-comparegoods span{
             font-size: 16px;
@@ -51,19 +106,22 @@
             background:#A0A0A0;
             border: none;
             color: white;
-            width: 154px;
+            width: 155px;
             height: 45px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .chin-sort span{
+            margin-right:35px ;
+        }
+        .chin-comparegoods-sort{
+            display: flex;
         }
         .chin-section{
             margin: 0 auto;
             display: flex;
             flex-direction:row;
-        }
-        .chin-commoditylist{
-            margin-right:16px ;
-            width: 312px;
-            height: 897px;
-            background: #FFF;
         }
         .chin-commodity{
             display: flex;
@@ -107,13 +165,74 @@
             flex-direction: column;
             margin-left:115px;
         }
+        h6{
+            text-align: center;
+            margin:0;
+            font-size: 15px;
+            font-weight:bold;
+            color: #A0A0A0;
+        }
+        h5{
+            font-size: 17px;
+            margin:0;
+            color: #0DD2C5;
+            text-align: center;
+        }
         .chin-commodity-item p{
-            margin: 2px 0 12px 22px ;
+            margin: 2px 0 12px 0 ;
             font-size: 17px;
             font-weight:bold;
             color: #050505;
+            text-align: center;
         }
-        .chin-commodity-item span{
-            margin-left:22px;
-            color: #FF6329;
+        footer{
+            background: #050505;
+            overflow: hidden;
+        }
+        .chin-everything-triplec{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 770px;
+            width: 1300px;
+            margin: 0 auto;
+        }
+        .chin-everything{
+            width: 1300px;
+            margin-top: 110px;
+            display: flex;
+            flex-direction: row;
+        }
+        .chin-triplec{
+            display: flex;
+            flex-direction: row;
+            color: #FFF;
+            margin-left: 55px ;
+        }
+        .chin-triplec ul{
+            margin: 0;
+            padding-left: 30px;
+            text-align: left;
+            list-style: none;
+        }
+        .chin-triplec ul li{
+            padding-bottom:10px ;
+        }
+        .chin-followus{
+            margin-left: 450px;
+            display: flex;
+            flex-direction: row;
+            color: #FFF;
+            margin-right: 55px;
+        }
+        .chin-followus ul{
+            margin: 0;
+            padding-left: 30px;
+            text-align: left;
+            list-style: none;
+        }
+        .chin-followus ul li{
+            padding-bottom:10px ;
         }
