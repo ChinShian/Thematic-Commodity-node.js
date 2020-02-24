@@ -6,9 +6,6 @@
             clear: both;
             height: 0;
         }
-        a {
-            text-decoration: none;
-        }
         header{
             height: 310px;
             background: #EFEFEF;
@@ -17,7 +14,6 @@
         .chin-bigtitle{
             height: 107px;
             background: #050505;
-            text-align: center;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -194,7 +190,6 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            text-align: center;
             height: 770px;
             width: 1300px;
             margin: 0 auto;
