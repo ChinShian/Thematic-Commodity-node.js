@@ -204,6 +204,11 @@
             margin-top: 110px;
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
+        }
+        .chin-customerservice{
+            display: flex;
+            flex-direction: row;
         }
         .chin-triplec{
             display: flex;
@@ -221,7 +226,6 @@
             padding-bottom:10px ;
         }
         .chin-followus{
-            margin-left: 450px;
             display: flex;
             flex-direction: row;
             color: #FFF;
@@ -235,4 +239,28 @@
         }
         .chin-followus ul li{
             padding-bottom:10px ;
+        }
+        .circle{
+            display: flex;
+            justify-content: center;
+        }
+        .circle1{
+            width: 58px;
+            height: 58px;
+            border: 1px solid #050505;
+            border-radius: 50%;
+            background: #050505;
+            margin: 168px 0 189px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .circle3{
+            width: 5px;
+            height: 5px;
+            border: 1px solid #FFF;
+            border-radius: 50%;
+            background: #FFF;
+            margin: 2px;
         }
