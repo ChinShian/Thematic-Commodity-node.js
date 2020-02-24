@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/data-sales">data-sales</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        address-book</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/address-book/list">list</a>
+                        <a class="dropdown-item" href="/address-book/insert">insert</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/data-sales">items</a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav">
+                <% if(! locals.islogin){ %>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login-test/login">登入</a>
+                </li>
+                <% } else { %>
+                <li class="nav-item">
+                    <a class="nav-link"><%= loginData.nickname %></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login-test/logout">登出</a>
+                </li>
+                <% } %>
+            </ul>
+
+        </div>
+    </div>
+
+</nav>
+<%# JSON.stringify(locals) %>

@@ -1,0 +1,72 @@
+<%- include('./parts/html-head') %>
+
+<main class="chin-main">
+    <section class="chin-section">
+        <div class="chin-commoditylist">
+            <div class="chin-price">
+                <span>價格</span>
+                <img src="/feather/chevron-up.svg" alt="">
+            </div>
+            <div class="chin-price">
+                <span>品牌</span>
+                <img src="/feather/chevron-up.svg" alt="">
+            </div>
+            <div class="chin-price">
+                <span>功能</span>
+                <img src="/feather/chevron-up.svg" alt="">
+            </div>
+            <div class="chin-price">
+                <span>優惠</span>
+                <img src="/feather/chevron-up.svg" alt="">
+            </div>
+        </div>
+        <div class="chin-commodity-title">
+            <div class="chin-title">
+                <div class="chin-title-text">
+                    <span>WEARABLE DEVICES</span>
+                    <span>穿戴式裝置</span>
+                </div>
+                <div class="chin-comparegoods-sort">
+                    <button class="chin-comparegoods">
+                        <span>比較商品</span>
+                        <img src="/feather/align-justify.svg" alt="">
+                    </button>
+                    <button class="chin-sort">
+                        <span>排序</span>
+                        <img src="/feather/chevron-down.svg" alt="">
+                    </button>
+                </div>
+            </div>
+            <div class="chin-commodity">
+                <%  for(let i=0; i < items.length; i++){ %>
+                <div class="chin-commodity-item">
+                    <ul class="chin-star-heart-bag">
+                        <li><img class="chin-star" src="/feather/star.svg" alt=""></li>
+                        <li><img class="chin-star" src="/feather/star.svg" alt=""></li>
+                        <li><img class="chin-star" src="/feather/star.svg" alt=""></li>
+                        <li><img class="chin-star" src="/feather/star.svg" alt=""></li>
+                        <li><img class="chin-star" src="/feather/star.svg" alt=""></li>
+                        <li class="chin-heart-bag">
+                            <img class="chin-heart" src="/feather/heart.svg" alt="">
+                            <img class="chin-bag" src="/feather/shopping-bag.svg" alt="">
+                        </li>
+                    </ul>
+                    <img class="chin-watch" src="/images/<%= items[i].itemImg%>" alt="">
+                    <h6><%= items[i].Name %></h6>
+                    <p><%= items[i].itemName %></p>
+                    <h5>NT$<%= items[i].itemPrice %></h5>
+                </div>
+                <% } %>
+            </div>
+            <div class="circle">
+                <div class="circle1">
+                    <div class="circle3"></div>
+                    <div class="circle3"></div>
+                    <div class="circle3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<%- include('./parts/html-foot') %>
