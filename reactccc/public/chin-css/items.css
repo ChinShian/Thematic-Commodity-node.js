@@ -1,0 +1,261 @@
+.clearfix::after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: ' ';
+  clear: both;
+  height: 0;
+}
+header {
+  height: 310px;
+  background: #efefef;
+  overflow: hidden;
+}
+.chin-bigtitle {
+  height: 107px;
+  background: #050505;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chin-search {
+  margin: 40px 0 0 20px;
+}
+.chin-product {
+  width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.chin-productoptions {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 100px;
+}
+.chin-productoptions li {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 40px 0 0 40px;
+  letter-spacing: 4px;
+}
+.chin-bag-heart-user img {
+  margin: 40px 0 0 20px;
+}
+.chin-main {
+  display: flex;
+  background: #efefef;
+  flex-direction: column;
+  overflow: hidden;
+}
+.chin-commoditylist {
+  margin-right: 17px;
+  width: 312px;
+  height: 897px;
+  background: #efefef;
+}
+.chin-price {
+  padding: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #a0a0a0;
+  display: flex;
+  justify-content: space-between;
+}
+.chin-commodity-title {
+  display: flex;
+  flex-direction: column;
+}
+.chin-title {
+  display: flex;
+  justify-content: space-between;
+}
+.chin-title-text span {
+  letter-spacing: 2px;
+  margin-left: 20px;
+  line-height: 50px;
+  color: #050505;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Helvetica Neue;
+}
+.chin-title-text span:nth-child(2) {
+  margin-left: 44px;
+  font-size: 18px;
+}
+.chin-comparegoods {
+  background: #0dd2c5;
+  border: none;
+  color: white;
+  width: 155px;
+  height: 45px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.chin-comparegoods span {
+  font-size: 16px;
+}
+.chin-sort {
+  background: #a0a0a0;
+  border: none;
+  color: white;
+  width: 155px;
+  height: 45px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.chin-sort span {
+  font-size: 16px;
+  margin-right: 35px;
+}
+.chin-comparegoods-sort {
+  display: flex;
+}
+.chin-section {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+.chin-commodity {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 972px;
+}
+.chin-commodity-item {
+  margin: 20px;
+  width: 284px;
+  height: 414px;
+  background: #fff;
+}
+.chin-star-heart-bag {
+  list-style: none;
+  display: flex;
+  margin: 21.9px 0 0 22.1px;
+  padding: 0;
+}
+.chin-star {
+  width: 15px;
+  height: 15px;
+  margin: 0 7.2px 0 0;
+}
+.chin-bag {
+  width: 20.31px;
+  height: 20.18px;
+}
+.chin-heart {
+  width: 20.47px;
+  height: 18.59px;
+  margin: 0 0 13.8px 0;
+}
+.chin-watch {
+  margin: 0 37px 18px 25px;
+  width: 222px;
+  height: 222px;
+}
+.chin-heart-bag {
+  display: flex;
+  flex-direction: column;
+  margin-left: 115px;
+}
+h6 {
+  text-align: center;
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+  color: #a0a0a0;
+}
+h5 {
+  font-size: 17px;
+  margin: 0;
+  color: #0dd2c5;
+  text-align: center;
+}
+.chin-commodity-item p {
+  margin: 2px 0 12px 0;
+  font-size: 17px;
+  font-weight: bold;
+  color: #050505;
+  text-align: center;
+}
+footer {
+  background: #050505;
+  overflow: hidden;
+}
+.chin-everything-triplec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 770px;
+  width: 1300px;
+  margin: 0 auto;
+}
+.chin-everything {
+  width: 1300px;
+  margin-top: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.chin-customerservice {
+  display: flex;
+  flex-direction: row;
+}
+.chin-triplec {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  margin-left: 55px;
+}
+.chin-triplec ul {
+  margin: 0;
+  padding-left: 30px;
+  text-align: left;
+  list-style: none;
+}
+.chin-triplec ul li {
+  padding-bottom: 10px;
+}
+.chin-followus {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  margin-right: 55px;
+}
+.chin-followus ul {
+  margin: 0;
+  padding-left: 30px;
+  text-align: left;
+  list-style: none;
+}
+.chin-followus ul li {
+  padding-bottom: 10px;
+}
+.circle {
+  display: flex;
+  justify-content: center;
+}
+.circle1 {
+  width: 58px;
+  height: 58px;
+  border: 1px solid #050505;
+  border-radius: 50%;
+  background: #050505;
+  margin: 168px 0 189px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.circle3 {
+  width: 5px;
+  height: 5px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background: #fff;
+  margin: 2px;
+}

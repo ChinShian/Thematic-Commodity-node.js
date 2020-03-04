@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
     <header>
       <div className="chin-bigtitle">
-        <img src="./header-footer/images/title.png" alt="" />
+        <Link to="/" exact><img src="./header-footer/images/title.png" alt="" /></Link>
       </div>
       <div className="chin-product">
         <div className="chin-search">
@@ -12,9 +13,9 @@ function Header() {
         </div>
         <div>
           <ul className="chin-productoptions">
-            <li>穿戴式裝置</li>
-            <li>耳機/喇叭</li>
-            <li>運動攝影機</li>
+            <li><Link to="/watch"  activeClassName="Watch"> 穿戴式裝置</Link></li>
+            <li><Link to="/headset"  activeClassName="Watch">耳機/喇叭</Link></li>
+            <li><Link to="/motion"  activeClassName="Watch">運動攝影機</Link></li>
             <li>周邊</li>
             <li>優惠卷專區</li>
           </ul>

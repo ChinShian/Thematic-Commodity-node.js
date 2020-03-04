@@ -1,21 +1,35 @@
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 import React from 'react'
-import logo from './logo.svg'
-import './App.css'
-import Footer from './components/common/Footer'
-import Header from './components/common/Header'
+import Footer from './components/Footer'
+import Header from './components/Header'
+
+import Home from './pages/Home'
+import Watch from './pages/Watch'
+import Headset from './pages/Headset'
+import Motion from './pages/Motion'
 
 function App() {
   return (
-    <>
-      <Header />
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>This is our Hello World page.我誰~~~~~~</p>
-        </header>
-      </div>
-      <Footer />
-    </>
+    <Router>
+      <>
+        <Header />
+          <Switch>
+            <Route exact path="/">
+                <Home/>
+            </Route>
+            <Route path="/watch">
+              <Watch/>
+            </Route>
+            <Route path="/headset">
+              <Headset />
+            </Route>
+            <Route path="/motion">
+              <Motion />
+            </Route>
+          </Switch>
+        <Footer />
+      </>
+    </Router>
   )
 }
 
