@@ -1,0 +1,26 @@
+.container {
+  width: 1300px;
+}
+.chin-productdetails {
+  display: flex;
+}
+.chin-bigitem img {
+  width: 600px;
+  height: 600px;
+}
+.chin-smallitem img {
+  width: 128px;
+  height: 128px;
+}
+.chin-smallitem img:nth-child(1) {
+  width: 30px;
+  height: 30px;
+}
+.chin-smallitem img:nth-child(6) {
+  width: 30px;
+  height: 30px;
+}
+.chin-avatar img {
+  width: 75px;
+  height: 75px;
+}

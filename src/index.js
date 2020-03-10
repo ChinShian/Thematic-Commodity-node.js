@@ -23,6 +23,6 @@ app.use((req, res) => {
     // res.send('找不到頁面')
 })
 
-app.listen(3000, () => {
+app.listen(3300, () => {
     console.log('express server start');
 })
