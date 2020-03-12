@@ -47,39 +47,27 @@
   font-size: 16px;
   font-weight: bold;
 }
-.chin-producttypes {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  width: 100%;
-  margin-top: 50px;
-}
-.grid-producttypes-item {
-  width: 215px;
-  font-size: 14px;
-  text-align: center;
-}
 .chin-hardwarespecifications {
   border-top: 1px solid #707070;
   margin-top: 50px;
   padding-top: 55px;
 }
-.chin-model {
+.chin-producttypes {
+  margin-top: 50px;
   display: flex;
-  margin-top: 30px;
-  justify-content: space-between;
 }
-.column-container {
+.chin-producttypes-item-title {
+  width: 150px;
+}
+.chin-grid {
   display: flex;
-  justify-content: space-between;
-}
-.column-label {
-  text-align: left;
-  white-space: initial;
-  font-weight: 400;
-  padding: 0;
-  margin-left: 20px;
-}
-.column {
   width: 100%;
-  margin: 0 40px;
+  justify-content: space-around;
+}
+.chin-grid-producttypes-item {
+  width: 200px;
+}
+.chin-producttypes-narrative {
+  margin-top: 30px;
+  display: flex;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './chin-css/commidty.scss'
+import '../css/main.scss'
 
 function Commidty(){
 
@@ -263,29 +264,6 @@ function Commidty(){
             <img
               className="chin-watch"
               src="./chin-img/images/watch.jpg"
-              alt=""
-            />
-            <h6>Apple</h6>
-            <p>Apple Watch Nike</p>
-            <h5>NT$6,400</h5>
-          </div>
-        </div>
-        <div className="chin-commodity">
-          <div className="chin-commodity-item">
-            <ul className="chin-star-heart-bag">
-              <li><img className="chin-star" src="./chin-img/star.svg" alt="" /></li>
-              <li><img className="chin-star" src="./chin-img/star.svg" alt="" /></li>
-              <li><img className="chin-star" src="./chin-img/star.svg" alt="" /></li>
-              <li><img className="chin-star" src="./chin-img/star.svg" alt="" /></li>
-              <li><img className="chin-star" src="./chin-img/star.svg" alt="" /></li>
-              <li className="chin-heart-bag">
-                <img className="chin-heart" src="./chin-img/heart.svg" alt="" />
-                <img className="chin-bag" src="./chin-img/shopping-bag.svg" alt="" />
-              </li>
-            </ul>
-            <img
-              className="chin-watch"
-              src="./chin-img//images/watch.jpg"
               alt=""
             />
             <h6>Apple</h6>

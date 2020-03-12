@@ -1,5 +1,6 @@
 import React from 'react'
 import './chin-css/comparepages.scss'
+import '../css/main.css'
 
 function Comparepages(){
 return(
@@ -58,65 +59,396 @@ return(
         </div>
         <div className="chin-hardwarespecifications">
             <h2>硬體規格</h2>
-            <div class="column-container">
-				<div class="column-label">
-					<p>類型</p>
-				</div>
-				
-				<div class="column">
-					<p>活動追蹤</p>
-				</div>
-				
-				<div class="column">
-					<p>傳奇星戰系列 特別版智慧腕錶
-主題式角色腕錶設計、錶面圖案及應用程式體驗</p>
-				</div>
-				
-				<div class="column">
-					<p>傳奇英雄系列 特別版智慧腕錶
-主題式角色腕錶設計、錶面圖案及應用程式體驗</p>
-				</div>
-				
-				<div class="column">
-					<p>活動追蹤/ 跑步/ 有氧/ 重訓</p>
-				</div>
-				
-			</div>
                 <div className="chin-producttypes">
-                    <div className="grid-producttypes-item">
+                    <div className="chin-producttypes-item-title">
                         <p>類型</p>
                     </div>
-                    <div className="grid-producttypes-item">
-                        <p>類型</p>
-                    </div>
-                    <div className="grid-producttypes-item">
-                        <p>類型</p>
-                    </div>
-                    <div className="grid-producttypes-item">
-                        <p>類型</p>
-                    </div>
-                    <div className="grid-producttypes-item">
-                        <p>類型</p>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
                     </div>
                 </div>
-                <div className="chin-model">
-                    <div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
                         <p>類型</p>
                     </div>
-                    <div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
                         <p>類型</p>
                     </div>
-                    <div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
                         <p>類型</p>
                     </div>
-                    <div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
                         <p>類型</p>
                     </div>
-                    <div>
-                        <p>類型</p>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
                     </div>
                 </div>
         </div>
+        <div className="chin-hardwarespecifications">
+            <h2>智慧手錶</h2>
+                <div className="chin-producttypes">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="chin-hardwarespecifications">
+            <h2>健身功能</h2>
+                <div className="chin-producttypes">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="chin-hardwarespecifications">
+            <h2>跑步功能</h2>
+                <div className="chin-producttypes">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="chin-producttypes-narrative">
+                    <div className="chin-producttypes-item-title">
+                        <p>類型</p>
+                    </div>
+                    <div className="chin-grid">
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                        <div className="chin-grid-producttypes-item">
+                            <p>類型</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
     </>
 )
