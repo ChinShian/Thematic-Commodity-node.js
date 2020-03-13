@@ -1,46 +1,52 @@
-import React from 'react'
+import React ,{useState} from 'react'
+import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom'
 
-function SideFilter (){
+//redux
+import { connect } from 'react-redux'
+//action
+import { bindActionCreators } from 'redux'
+import {addFilterCoupon} from '../../actions/index'
 
+
+function SideFilter (props){
+
+  console.log('888',props)
+
+  const filter = function (e){
+      props.addFilterCoupon({isChecked:e.target.checked,vendorName:e.target.value},props.filterList)
+  }
+  
     return(
         <>
         <div className="col-3 sty-sideFilter">
           <h3 className="">品牌</h3>
           <hr />
-          <ul>
-            <li>
-              <input type="checkbox" name="apple" id="all" /><label for="all"
-                >ALL</label>
-            </li>
-            <li>
-              <input type="checkbox" name="apple" id="apple" /><label
-                for="apple"
-                >APPLE</label>
-            </li>
-            <li>
-              <input type="checkbox" name="apple" id="bpple" /><label
-                for="bpple"
-                >APPLE</label>
-            </li>
-            <li>
-              <input type="checkbox" name="apple" id="cpple" /><label
-                for="cpple"
-                >APPLE</label>
-            </li>
-            <li>
-              <input type="checkbox" name="apple" id="dpple" /><label
-                for="dpple"
-                >APPLE</label>
-            </li>
-            <li>
-              <input type="checkbox" name="apple" id="epple" /><label
-                for="epple"
-                >APPLE</label>
-            </li>
+          <ul onChange={(e)=>filter(e)}>
+          {props.list.map((val,ind)=>{
+            return (<li>
+              <input type="checkbox" name={val} id={val} value={val}/><label
+                htmlFor={val}
+                >{val}</label>
+            </li>)
+          })}
           </ul>
         </div>
         </>
     )
 }
 
-export default SideFilter
+
+// 選擇對應的reducer
+const mapStateToProps = store => {
+  return {  filterList: store.filterCoupon,}
+}
+
+//action
+const mapDispatchToProps = dispatch =>{
+  return bindActionCreators({
+    addFilterCoupon
+  },dispatch)
+}
+
+
+export default connect(mapStateToProps,mapDispatchToProps)(SideFilter)

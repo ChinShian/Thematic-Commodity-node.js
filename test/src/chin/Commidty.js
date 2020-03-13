@@ -68,9 +68,10 @@ function Commidty(){
             <p>
               害飛根草相師鼻片給羊怎，婆隻土世，才植科午它昌二聲課弓用化菜，升尤明母免綠耍玩東點「生石穴元坡叫小寸」地士爬苦拍京兌畫石七急丁相實申幸世苦錯眼。園來飯借子樹山；只今母女抱言。貫喜家法。
               </p>
+              <h3>技術規格</h3>
         </div>
-        <h3>技術規格</h3>
         <div className="chin-technicalspecifications">
+       
           <div className="chin-size-digital">
             <div className="chin-size">
               <ul>
@@ -264,6 +265,29 @@ function Commidty(){
             <img
               className="chin-watch"
               src="./chin-img/images/watch.jpg"
+              alt=""
+            />
+            <h6>Apple</h6>
+            <p>Apple Watch Nike</p>
+            <h5>NT$6,400</h5>
+          </div>
+        </div>
+        <div className="chin-commodity">
+          <div className="chin-commodity-item">
+            <ul className="chin-star-heart-bag">
+              <li><img className="chin-star" src="./chin-img/star.svg" alt="" /></li>
+              <li><img className="chin-star" src="./chin-img/star.svg" alt="" /></li>
+              <li><img className="chin-star" src="./chin-img/star.svg" alt="" /></li>
+              <li><img className="chin-star" src="./chin-img/star.svg" alt="" /></li>
+              <li><img className="chin-star" src="./chin-img/star.svg" alt="" /></li>
+              <li className="chin-heart-bag">
+                <img className="chin-heart" src="./chin-img/heart.svg" alt="" />
+                <img className="chin-bag" src="./chin-img/shopping-bag.svg" alt="" />
+              </li>
+            </ul>
+            <img
+              className="chin-watch"
+              src="./chin-img//images/watch.jpg"
               alt=""
             />
             <h6>Apple</h6>

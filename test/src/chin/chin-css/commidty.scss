@@ -11,9 +11,6 @@ h5 {
 h4 {
   font-size: 20px;
 }
-h3 {
-  border: none;
-}
 .chin-productdetails {
   display: flex;
 }
@@ -39,8 +36,8 @@ h3 {
   }
 }
 .chin-productname {
+  margin-left: 100px;
 }
-
 .chin-productname span {
   font-size: 18px;
   margin-left: 20px;
@@ -118,6 +115,9 @@ h3 {
   text-align: left;
   margin: 80px auto;
 }
+.chin-productdescription h3 {
+  text-align: center;
+}
 .chin-technicalspecifications {
   display: flex;
   justify-content: center;
@@ -164,6 +164,9 @@ h3 {
 }
 .chin-usercomment-fractionalstars {
   margin-top: 80px;
+}
+.chin-usercomment-fractionalstars h3 {
+  text-align: center;
 }
 .chin-usercomment {
   display: flex;

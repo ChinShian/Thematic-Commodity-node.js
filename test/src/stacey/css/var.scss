@@ -1,11 +1,4 @@
-$pageTitle-fontSize: 22px;
-$blockTitle-fontSize: 20px;
-$title-fontSize: 18px;
-$p-fontSize: 16px;
-$small-fontSize: 15px;
-$green: #0dd2c5;
-$deepGray: #a0a0a0;
-$bodyColor: #f8f8f8;
+$backGrey: #dfdfdf;
 
 @mixin couponForMobile {
   @media screen and (max-width: 576px) {
@@ -40,9 +33,5 @@ $bodyColor: #f8f8f8;
 }
 @mixin lg {
   @media screen and (max-width: 992px) {
-  }
-}
-@mixin xlg {
-  @media screen and (max-width: 1300px) {
   }
 }

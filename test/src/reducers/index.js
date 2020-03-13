@@ -16,18 +16,45 @@ const counter = (state = 0, action) => {
   }
 }
 
-//優惠券
-const getCouponData = (state=[],action)=>{
+//---------------chin items--------------------
+
+const getWatchItems = (state=[],action)=>{
   switch (action.type){
-    
+    case 'SHOW_WATCH':
+      return action.value
+      default :
+      return state
   }
 }
 
 
 
+
+//優惠券
+//-----------stacey 優惠券---------------------
+const getCouponData = (state=[],action)=>{
+  switch (action.type){
+    case 'SHOW_VALUE':
+      return action.value
+    default :
+      return state
+  }
+}
+
+//優惠券篩選
+const filterCoupon = (state=[],action)=>{
+  switch (action.type){
+    case 'FILTER_VALUE':
+        return action.value
+    default :
+      return state
+  }
+}
+
+
 // 合併多個reducer (必要，為了要配合瀏覽器開發外掛使用)
 const rootReducer = combineReducers({
-  counter,
+  counter,getCouponData,filterCoupon,getWatchItems
 })
 
 export { rootReducer }
