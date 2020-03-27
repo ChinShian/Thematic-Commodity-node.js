@@ -23,7 +23,7 @@ import Comparepages from './chin/Comparepages'
 import Actioncamera from './chin/Actioncamera'
 import Surrounding from './chin/Surrounding'
 //import mao
-import CartList from './mao/ShopCartList'
+import ShopCartList from './mao/ShopCartList'
 
 //import Irene
 import MemberLogin from './Irene/MemberLogin'
@@ -31,6 +31,8 @@ import MemberEdit from './Irene/MemberEdit'
 
 //import stacey
 import GetCoupon from './stacey/GetCoupon'
+import MemberCoupon from './stacey/MemberCoupon'
+
 
 function App() {
   //測試 react-bootstrap 的 ExampleToast 功能是否正常
@@ -96,10 +98,10 @@ function App() {
             <Comparepages/>
           </Route>
         {/*---------------------------------------------*/}
-          <Route path="/ShopCartList/:id?">
+          <Route path="/ShopCartList">
               {' '}
               {/*id抓會員ID */}
-              <CartList />
+              <ShopCartList />
             </Route>
             <Route path="/memberlogin">
               <MemberLogin />
